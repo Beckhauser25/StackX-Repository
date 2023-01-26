@@ -1,0 +1,26 @@
+Salário bruto (IF)
+
+********
+
+INICIO 
+Var : Salrio - Real / Gratificaçao - Real / Imposto - real 
+
+SalarioTotal = (Salrio * 0,07 )+ Gratificaçao 
+
+Escreva ("Digite seu Salario");
+Leia("Salario");
+
+Se (Salario < R$350); Entao
+	Escreva (Gratificaçao sera R$ 100);
+		Se (Salario > R$ 301 e salario < R$ 600; Entao
+			Escreva (Gratificaçao sera R$ 75);
+				Se (Salario > R$ 601 e salario < R$ 900; Entao
+					Escreva (Gratificaçao sera R$ 50);
+						Se (Salario > R$ 901; Entao
+							Escreva (Gratificaçao sera R$ 35);
+						FimSe
+				FimSE
+		FimSe					
+FimSe
+
+		

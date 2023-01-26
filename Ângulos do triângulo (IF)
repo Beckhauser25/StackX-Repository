@@ -1,0 +1,27 @@
+Ângulos do triângulo (IF)
+
+********
+
+INICIO
+
+Var; Triangulo , Angulo;
+
+Escreva("Qual o tipo do Triangulo ");
+	Leia ("Tringulo");
+
+Escreva("Qual o tamanho do angulo");
+	Leia("Tamanho Angulo");
+
+IF (Se o Trigangulo possui um angulo reto (= 90));
+	Resultado (Essa figura é um Triangulo Retangulo);
+
+		IF (Se o Trigangulo possui um angulo obtuso (>90));
+			Resultado (Essa figura é um Triangulo Obtusangulo);
+
+				IF (Se o Trigangulo possui tres angulos agudos (<90) );
+					Resultado (Essa figura é um Triangulo Acutangulo);
+				FimSe	
+		FimSe	
+FimSe
+
+FIM

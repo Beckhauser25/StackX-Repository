@@ -1,0 +1,52 @@
+Estruturas condicionais e de repetição: Compra de produto (Switch Case)
+
+
+
+**********
+
+INICIO
+
+Var; Codigo, preço, preço da nota , desconto; 
+
+Escreva("Codigo do Produto");
+Leia ("Codigo");
+
+Escreva("Preço do Produto");
+Leia ("Preço");
+
+Escreva("Preço total da nota");
+Leia ("Preço da Nota");
+
+Escreva("% de Desconto");
+Leia ("% Desconto");
+
+ Para Codigo de 1 ate 10 Faca;
+ 	PreçoUnitario = 10; 
+ 		ValoNota <= 250;
+ 			Desconto = 0,05;
+
+ FimSE 
+
+  Para Codigo de 11 ate 20 Faca;
+ 	PreçoUnitario = 15; 
+ 		ValoNota > 250 e <= 500;
+ 			Desconto = 0,10;
+ FimSe
+ 
+  Para Codigo de 21 ate 30 Faca;
+ 	PreçoUnitario = 15; 
+ 		ValoNota > 50;
+ 			Desconto = 0,15;
+ FimSE 			
+			
+  Para Codigo de 1 ate 10 Faca;
+ 	PreçoUnitario = 10; 
+ 		ValoNota <= 250;
+ 			Desconto = 0,05;
+
+ Para Preco final; faca
+ 
+ PrecoFinal = PreçoNota - Desconto 
+
+ FimSe			
+

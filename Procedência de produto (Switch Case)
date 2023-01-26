@@ -1,0 +1,46 @@
+Procedência de produto (Switch Case)
+
+Faça um programa que receba o preço de um produto e seu código de origem e mostre sua procedência. 
+A procedência obedece à tabela a seguir.
+
+*******
+
+INICIO 
+
+Var; Codigo; Estado.
+
+
+Escreva ("Codigo de Origem");
+	Leia("Codigo");
+
+Escreva ("Precedencia");
+	Leia(Procedencia);
+
+ Codigo = 0 
+
+ IF (Codigo == 1);
+ 	Print("Sul");
+ 		IF (Codigo == 2);
+ 			Print("Norte");
+				IF (Codigo == 3);
+ 					Print("Leste");
+ 						IF (Codigo == 4);
+ 							Print("Oeste");
+ 								IF (Codigo = 5 ou Codigo = 6);
+ 									Print("Nordeste");	
+ 										IF (Codigo = 7, Codigo = 8 ou Codigo = 9);
+ 											Print("Sudeste");
+ 												IF (Codigo > 10 e Codigo < 20);
+ 													Print("Centro-Oeste");
+ 														IF (Codigo >= 21 e Codigo < 30);
+ 															Print("Nordeste");
+ 															FimSe
+ 													FimSe
+ 											FimSe
+ 									FimSe
+ 							FimSe								
+ 					FimSe
+ 			FimSe
+ 	FimSe
+
+FIM.							

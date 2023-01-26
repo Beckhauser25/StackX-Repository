@@ -1,0 +1,19 @@
+1. Estruturas condicionais e de repetição: Aumento salarial (FOR)
+
+INICIO 
+*****
+
+Var: Ano - Inteiro
+	% de Aumento Real
+
+	Escreva ("Digite o ano");
+	Leia ("Ano");
+
+	Escreva (Digite seu salario);
+	Leia ("Salario");
+
+	Se (Ano = 2000 e Salario = 1.000); Entao;
+		Escreva ("Seu Salrio e 1.000 , seu aumento e 0%");
+			Se (Ano = 2001 e Salario = 1.000 ); Entao;
+				Escreva ("Seu Salrio e 1.000 , Voce nao possuia aumento");
+			

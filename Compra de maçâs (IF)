@@ -1,0 +1,22 @@
+Compra de maçâs (IF)
+
+As maçãs custam R$ 0,30 cada se forem compradas menos do que uma dúzia, e R$ 0,25 se forem compradas pelo menos doze. 
+Escreva um programa que leia o número de maçãs compradas, calcule e escreva o valor total da compra.
+
+
+int main(){
+int qtd;
+float compra;
+
+Escreva("Digite a quantidade de maçãs compradas :");
+Leia("%d", &qtd);
+
+IF (qtd >= 12){
+   Compra= Qtd * 0.25;
+}
+IF{
+   Compra= Qtd * 0.3;
+}
+Escreva("o valor de sua compra é: %f", compra);
+
+FIM 

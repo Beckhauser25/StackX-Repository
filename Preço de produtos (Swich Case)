@@ -1,0 +1,41 @@
+Preço de produtos (Swich Case)
+
+ Categoria (1 – limpeza; 2 – alimentação; ou 3 – vestuário).
+
+ INICIO 
+
+ ******
+
+ VAR: Preço; Real / Aumento : Real 
+
+ Escreva ("Qual a categoria do Produto");
+ Leia("Categoria");
+
+ Escreva ("Percentual de aumento"); 
+ Escreva ("Aumento");
+
+    Se (Se Preco < 25 e Categoria 1) Entao;
+        Escreva("Aumento foi de 5%");
+            Total("R$26,26");
+             Se (Se Preco < 25 e Categoria 2) Entao;
+                Escreva("Aumento foi de 8%");
+                     Total("R$27,00");
+                     Se (Se Preco < 25 e Categoria 3) Entao;
+                        Escreva("Aumento foi de 10%");
+                            Total("R$27,50");
+
+                            Se (Se Preco > 25 e Categoria 1) Entao;
+                                 Escreva("Aumento foi de 12%");
+                                    Total("R$28,00");
+                                        Se (Se Preco < 25 e Categoria 2) Entao;
+                                            Escreva("Aumento foi de 15%");
+                                                Total("R$28,75");
+                                                    Se (Se Preco < 25 e Categoria 3) Entao;
+                                                        Escreva("Aumento foi de 5%");
+                                                            Total("R$29,50"); 
+                                                            FimSe
+
+
+                        
+                    
+                                        

@@ -1,0 +1,21 @@
+Saque
+
+Escreva os passos necessários para uma pessoa efetuar um saque de R$ 100,00 em um caixa eletrônico.
+
+*****
+
+INICIO 
+
+1- Ir ate o caixa eletronico;
+2- Insira o cartao no caixa eletronico;
+3- selecione a opçao "SAQUE";
+4- Coloque as informaçoes pessoais da conta pra efetuar o saque; 
+	Enquanto coloca as informaçoes, verifique o saldo da conta;
+5-Selecione o valor "R$100,00" na tela 
+	FimEnqunto 
+6- Enquanto a maquina separa o dinheiro;
+7- Finalize a operaçao:
+8- Confira as notas para se certificar da quantia;
+
+FIM 		
+

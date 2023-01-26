@@ -1,0 +1,29 @@
+Triângulo (IF)
+
+Triângulo Equilátero: possui os 3 lados iguais.
+Triângulo Isóscele: possui 2 lados iguais.
+Triângulo Escaleno: possui 3 lados diferentes.
+
+INICIO
+
+Var; Triangulo , numeros de lados;
+
+Escreva("Figura geometrica");
+	Leia ("TRIANGULOS");
+
+Escreva("Numero de lados iguais");
+	Leia("Numero de lados");
+
+IF (Se o Trigangulo possuir numero de lados iguais a "3");
+	Resultado (Essa figura é um Triangulo Equílatero);
+
+		IF (Se o Trigangulo possuir numero de lados iguais a "2");
+			Resultado (Essa figura é um Triangulo Isóscele);
+
+				IF (Se o Trigangulo possuir numero de lados diferentes = 2);
+					Resultado (Essa figura é um Triangulo Escaleno);
+				FimSe	
+		FimSe	
+FimSe
+
+FIM

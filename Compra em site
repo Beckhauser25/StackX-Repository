@@ -1,0 +1,29 @@
+Compra em site
+
+
+*******
+
+INICIO
+
+1-Abra o navegador;
+ Enqundo o navegador carrega;
+ 2- Coloque o nome do site em que deseja efetuar a compra;
+ FimEnquanto;
+ 3- Procure o prodruto que deseja comprar;
+ Enquanto seleciona o produto verifique a disponibilidade do mesmo;
+ 4- Selecione o produto;
+ 5- Verifique as especificaçoes do produto;
+ 6- Apos selecionar e verificar o produto;
+ 7-Clique na opcao "Finalizar Compra";
+ 8- Preencha todas as informacoes pedida pelo site;
+ 9- Informaçoes como : endereço de entrega, modo de pagamento entre outros;
+ 10- Selicione a opçao de pagamento "Cartao de Credito";
+ 11- Coloque as informaçoes do cartao;
+ 12- Escolha a opçao "Pagamento a Vista" ou "Parcelado";
+ Enquanto o site Processa todas as informaçoes;
+ 13- Finalize a compra e aguarde o prazo de entrega do produto;
+ 	FimEnquanto;
+
+ 	FIM
+
+ 	**********

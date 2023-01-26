@@ -1,0 +1,31 @@
+Três valores e o maior deles (IF)
+
+Escreva um programa para ler 3 valores inteiros e escrever o maior deles. Considere que o usuário não informará valores iguais.
+
+INICIO
+
+VAR, N1, N2, N3, Maior, Menor, Meio 
+
+N = ("Digite um valor")
+N1 = ("Digite o primeiro valor");
+N2 = ("Digite o segundo valor");
+N3 = ("Digite o terceiro valor");
+IF ((n1 > n2) && (n1 > n3)) {
+    maior = n1;
+IF (n2 < n3) {
+        meio = n3
+        menor = n2
+    ELSE   
+        meio = n2
+        menor = n3
+
+IF ((n2 > n1) && (n2 > n3)) {
+    maior = n2;
+    IF (n1 < n3) 
+        meio = n3
+        menor = n1   
+    ELSE 
+        meio = n1
+        menor = n3
+
+FIM

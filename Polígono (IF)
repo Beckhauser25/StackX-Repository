@@ -1,0 +1,22 @@
+Polígono (IF)
+
+Se o número de lados for igual a 3 escrever TRIÂNGULO e o valor da área.Se o número de lados for igual a 4 escrever QUADRADO e o valor da sua área.
+Se o número de lados for igual a 5 escrever PENTÁGONO.
+
+INICIO
+
+Var; Numeros de lados ; inteiro;
+
+Escreva ("Numero de lados que figura possui");
+Leia("Numero de lados");
+
+IF (Se a figura possuir numero de lados = 3);
+	Resultado (Essa figura é um Triangulo);
+
+IF (Se a figura possuir numero de lados = 4);
+	Resultado (Essa figura é um Quadrado);
+
+IF (Se a figura possuir numero de lados = 5);
+	Resultado (Essa figura é um Pentagono);	
+
+FIM	

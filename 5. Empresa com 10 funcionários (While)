@@ -1,0 +1,177 @@
+5. Empresa com 10 funcionários (While)
+
+*****
+INICIO 
+
+Var: 
+Codigo: int
+SalarioMinimo: float
+Turno , Categoria : Char 
+SalarioMinimo: 450 
+
+Laco1 = 1 
+ 
+ Enquanto (Laco <= 10 ) Faça 
+
+ 	HoraTrabalhada , ValorHora , SalarioInicial . SalarioFinal , AuxAlimentaçao : float 
+
+ 	Escreva ("Codigo" ) ; Leia (codigo);  
+ 	Escreva ("Horas Trabalhadas no mes" ) ; Leia (HoraTrabalhada);  
+
+ 	******_________________________ Laço Categoria 
+
+ 	Enquanto (Laco2) Faça 
+
+ 	Escreva("CAtegoria"); Leia(Categoria); 
+ 	Se (Categoria == "O" ou Categoria == "G"); 
+ 		Laco 2 = Falso 
+	Senao 
+
+	Escreva ( "As categorias possiveis "O" e "G" , diigite novamente")
+	Continue 
+	FimSe 
+
+	FimEnquanto
+
+	******_________________________ Laço Turno 
+
+ 	Enquanto (Laco3 Faça 
+
+ 	Escreva("CAtegoria"); Leia(Categoria); 
+ 	Se (Turno == "M" ou Turno == "V"ou Turno == "N"); 
+ 		Laco 2 = Falso 
+	Senao 
+
+	Escreva ( "As Turnos possiveis "M"ou "V" ou "N" , diigite novamente")
+	Continue 
+	FimSe 
+
+	FimEnquanto
+
+	# --------------------------------- Condicional para Categoria G e turno N 
+
+	Se (Categoria == "G" e "N") Entao 
+		ValorHora = SalarioMinimo * 0.18;
+		SalrioInicial = HoraTrabalhada * ValorHora; 
+
+		Se ( Salario <= 300 ) Entao 
+		AuxAlimentaçao = SalarioInicial * 0.20;
+		SalarioFinal = SalrioInicial + AuxAlimentacao:
+
+		SeNaoSe
+		( Salario > 300 e <= 600 ) Entao 
+		AuxAlimentaçao = SalarioInicial * 0.15;
+		SalarioFinal = SalrioInicial + AuxAlimentacao: 
+
+		SeNao 
+
+		( Salario > 600 ) Entao 
+		AuxAlimentaçao = SalarioInicial * 0.05;
+		SalarioFinal = SalrioInicial + AuxAlimentacao:
+
+		FimSe 
+
+# --------------------------------- Condicional para Categoria G e turno V 
+	Se Se (Categoria == "G" e "v") Entao 
+		ValorHora = SalarioMinimo * 0,15;
+		SalrioInicial = HoraTrabalhada * ValorHora; 
+
+		Se ( Salario <= 300 ) Entao 
+		AuxAlimentaçao = SalarioInicial * 0.20;
+		SalarioFinal = SalrioInicial + AuxAlimentacao:
+
+		Se ( Salario > 300 e > 600 ) Entao 
+		AuxAlimentaçao = SalarioInicial * 0.15;
+		SalarioFinal = SalrioInicial + AuxAlimentacao:
+
+		SeNao 
+
+		Se ( Salario > 600 ) Entao 
+		AuxAlimentaçao = SalarioInicial * 0.5;
+		SalarioFinal = SalrioInicial + AuxAlimentacao:
+
+		FimSe 
+
+# --------------------------------- Condicional para Categoria G e turno M  
+
+	Se ( Salario <= 300 ) Entao 
+		AuxAlimentaçao = SalarioInicial * 0.20;
+		SalarioFinal = SalrioInicial + AuxAlimentacao:
+
+		Se ( Salario > 300 e > 600 ) Entao 
+		AuxAlimentaçao = SalarioInicial * 0.15;
+		SalarioFinal = SalrioInicial + AuxAlimentacao:
+
+		SeNao 
+
+		Se ( Salario > 600 ) Entao 
+		AuxAlimentaçao = SalarioInicial * 0.5;
+		SalarioFinal = SalrioInicial + AuxAlimentacao:
+
+		FimSe 
+
+	# --------------------------------- Condicional para Categoria O e turno N 	
+
+	Se (Categoria == "O" e "N") Entao 
+		ValorHora = SalarioMinimo * 0.13;
+		SalrioInicial = HoraTrabalhada * ValorHora; 
+
+		Se ( Salrio < 300) Entao
+		AuxAlimentaçao = SalarioInicial * 0.20;
+		SalarioFinal = SalrioInicial + AuxAlimentacao:
+
+		Se ( Salrio > 300 e < 600) Entao
+		AuxAlimentaçao = SalarioInicial * 0.15;
+		SalarioFinal = SalrioInicial + AuxAlimentacao:
+
+		SeNao 
+
+		Se ( Salario > 600 ) Entao 
+		AuxAlimentaçao = SalarioInicial * 0.5;
+		SalarioFinal = SalrioInicial + AuxAlimentacao:
+
+		FimSe 
+
+# --------------------------------- Condicional para Categoria O e turno V
+	
+	Se (Categoria == "O" e "V") Entao 
+		ValorHora = SalarioMinimo * 0.10;
+		SalrioInicial = HoraTrabalhada * ValorHora; 
+
+		Se ( Salrio < 300) Entao
+		AuxAlimentaçao = SalarioInicial * 0.20;
+		SalarioFinal = SalrioInicial + AuxAlimentacao:
+
+		Se ( Salrio > 300 e < 600) Entao
+		AuxAlimentaçao = SalarioInicial * 0.15;
+		SalarioFinal = SalrioInicial + AuxAlimentacao:
+
+		SeNao 
+
+		Se ( Salario > 600 ) Entao 
+		AuxAlimentaçao = SalarioInicial * 0.5;
+		SalarioFinal = SalrioInicial + AuxAlimentacao:
+
+		FimSe  
+
+# --------------------------------- Condicional para Categoria O e turno M
+	
+	Se (Categoria == "O" e "M") Entao 
+		ValorHora = SalarioMinimo * 0.10;
+		SalrioInicial = HoraTrabalhada * ValorHora; 
+
+		Se ( Salrio < 300) Entao
+		AuxAlimentaçao = SalarioInicial * 0.20;
+		SalarioFinal = SalrioInicial + AuxAlimentacao:
+
+		Se ( Salrio > 300 e < 600) Entao
+		AuxAlimentaçao = SalarioInicial * 0.15;
+		SalarioFinal = SalrioInicial + AuxAlimentacao:
+
+		SeNao 
+
+		Se ( Salario > 600 ) Entao 
+		AuxAlimentaçao = SalarioInicial * 0.5;
+		SalarioFinal = SalrioInicial + AuxAlimentacao:
+
+		FimSe  

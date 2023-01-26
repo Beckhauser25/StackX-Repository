@@ -1,0 +1,27 @@
+Algoritmos - Narração descritiva para: Grafo
+
+********
+
+INICIO 
+	Enquanto 
+1 - Partindo do (1) ate o (3) tempo de espera "3";
+	FimEnquanto
+
+	Enquanto
+2 - Do ponto (3) ate o ponto (6) tempo de espera "4";
+	FimEnquanto
+
+	Enquanto
+3 - Do ponto (6) ate o ponto (8) tempo de espera "3";
+	FimEnquanto
+
+	Enquanto
+4 - Do ponto (8) ate o ponto (11) tempo de espera "1";
+	FimEnquanto
+
+	Enquanto
+5 - Do ponto (11) ate o ponto (12) tempo de espera "2";
+	FimEnquanto
+
+6 - Partindo do ponto (1) ate o ponto (12) precisou de um tempo de "13";
+FIM 

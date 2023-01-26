@@ -1,0 +1,20 @@
+Algoritmos - Narração descritiva -Sequência de passos
+
+Escreva a seqüência de passos para que uma pessoa abra um arquivo do tipo texto armazenado em um pen drive.
+
+******
+
+INICIO 
+
+1 - Ligar o computador; 
+	Enquanto o computador liga;
+2- Aguarde o computador ligar por completo para inserir o pen drive;
+	Fim Enquanto
+3- 	insira o pen drive na maquina;
+ 	Enquando a maquina carrega os arquivos do pen drive;
+4- Selecione o arquivo desejado;
+5- Apos selecionar o aquivo;
+6- Clique no arquivo para abrir o mesmo;
+7- Aberto o arquivo selecionado;
+
+FIM   	

@@ -1,0 +1,19 @@
+Complemento ao Polígono da tarefa 14 (IF)
+
+Caso o número de lados seja inferior a 3 escrever NÃO É UM POLÍGONO.
+Caso o número de lados seja superior a 5 escrever POLÍGONO NÃO IDENTIFICADO.
+
+INICIO
+
+Var; Numeros de lados ; inteiro;
+
+Escreva ("Numero de lados que figura possui");
+Leia("Numero de lados");
+
+IF (Se a figura possuir numero de lados < 3);
+	Resultado ("Não é um Polígono";
+
+IF (Se a figura possuir numero de lados > 5);
+	Resultado ("Polígono não Identificado");
+
+FIM	

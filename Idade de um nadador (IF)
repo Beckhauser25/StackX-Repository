@@ -1,0 +1,29 @@
+Idade de um nadador (IF) 
+
+INICIO 
+
+Var; Idade: inteiro 
+	Categoria : Real 
+
+Escrava ("Digite sua idade");
+Leia("Idade");
+
+Se (Idade > 5 e idade <= 7 ) Entao ;
+	Escreva ("Voce esta na categoria Infantil");
+		Se (Idade > 8 e idade <= 10 ) Entao ;
+			Escreva ("Voce esta na categoria Juvenil");	
+				Se (Idade > 11 e idade <= 15 ) Entao ;
+					Escreva ("Voce esta na categoria Adolecente");
+						Se (Idade > 16 e idade <= 30 ) Entao ;
+							Escreva ("Voce esta na categoria Adulto");
+								Se (Idade > 30) Entao ;
+									Escreva ("Voce esta na categoria Senior");
+																				FIM SE;
+									Se (Idade < 5 ) Entao ;
+										Escreva ("Voce nao se encaixa em nenhuma categoria");
+																							FIM SE 
+								FIM SE
+						FIM SE 
+				FIM SE
+		FIM SE
+FIM SE 																								

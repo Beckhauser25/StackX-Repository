@@ -1,0 +1,33 @@
+Operações com números (Switch Case)
+
+Faça um programa que receba dois números e execute as operações listadas a seguir, 
+de acordo com a escolha do usuário.
+
+********
+
+INICIO 
+
+Escreva("Escolha");
+	Leia("1 a 4 ");
+
+Escreva("Operaçao");
+	Leia("Operaçao");
+
+i = 0 
+
+Para dois numeros "X" e "Y" Faca; 
+
+IF (Escolha "1") Faca
+	Print(Operçao "Media entre os numeros digitados");	
+		IF (Escolha "2") Faca
+			Print(Operçao "Diferença do maior para o menor");
+				IF (Escolha "3") Faca
+					Print(Operçao "Produto entre os numeros digitados");
+						IF (Escolha "4") Faca
+							Print(Operçao "Divisao do primeiro peço segundo");
+						FimSe	
+				FimSe					
+		FimSe		
+FimSe
+
+

@@ -1,0 +1,26 @@
+Saque sem saldo 
+
+Escreva os passos necessários para uma pessoa efetuar um saque de R$ 100,00 em um caixa eletrônico.
+
+*****
+
+INICIO 
+
+1- Ir ate o caixa eletronico;
+2- Insira o cartao no caixa eletronico;
+3- selecione a opçao "SAQUE";
+4- Coloque as informaçoes pessoais da conta pra efetuar o saque; 
+	Enquanto coloca as informaçoes, verifique o saldo da conta;
+5-Selecione o valor "R$100,00" na tela 
+	FimEnqunto 
+6-	Enquanto voce seleciona a quantia "R$100",
+    aparece a mensagem "Saldo insuficiente";
+7- Volte a opçao "SAQUE";
+8- Selecione o saldo dispovivel de "R$50,00";
+FimEnqunato;  
+9- Enquanto a maquina separa o dinheiro;
+10- Finalize a operaçao:
+11- Confira as notas para se certificar da quantia;
+
+FIM 		
+

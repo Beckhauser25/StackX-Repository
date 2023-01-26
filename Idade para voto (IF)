@@ -1,0 +1,26 @@
+Idade para voto (IF)
+
+Escreva um programa para ler o ano de nascimento de uma pessoa e escrever uma mensagem que diga se ela poderá ou não votar este ano (não é necessário considerar o mês em que ela nasceu).
+
+**********
+
+INICIO 
+
+Var Idade: Inteiro / Ano: Inteiro 
+
+Escreva ("Ano do Nascimento");
+Leia ("Ano");
+
+Escreva("Ano Atual"); 
+Leia("Ano"); Entao 
+
+If (AnoAtual - AnoNascimento => 16);
+
+Escreva ("Voce pode votar");
+
+If (AnoAtual - AnoNascimento <= 16);
+
+Escreva("Voce nao pode Votar");
+
+
+FIM. 
